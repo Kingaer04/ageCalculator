@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div id="main">
+        <div class="head">
+            <div class="month-name">
+                <h6 class="text">DAY</h6>
+                <h6 class="text">MONTH</h6>
+                <h6 class="text">YEAR</h6>
+            </div>
+            <div class="input-data">
+                <input class="inputs" type="text" value="" placeholder="DD" required>
+                <input class="inputs" type="text" value=""placeholder="MM" required>
+                <input class="inputs" type="text" value=""placeholder="YYYY" required>
+            </div>
+            <div class="month-name invalid">
+                <i class="texts">Must be a valid day</i>
+                <i class="texts">Must be  a valid month</i>
+                <i class="texts">Must be in the past</i>
+            </div>
+            <div class="month-name required">
+                <i class="texts">This field is required</i>
+                <i class="texts">This field is required</i>
+                <i class="texts">This field is required</i>
+            </div>
+            <div class="enter">
+                <hr>
+                <button class="submit" type="submit"><span>➕</span></button>
+            </div>
+        </div>
+       
+        <div class="calculation">
+            <div class="clac">
+                <button class="input-text"></button><i class="calendar">years</i>
+            </div>
+            <div class="clac">
+                <button class="input-text"></button><i class="calendar">months</i>
+            </div>
+            <div class="clac">
+                <button class="input-text"></button><i class="calendar">days</i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
